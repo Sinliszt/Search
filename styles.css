@@ -4,6 +4,12 @@
     top: 10px;
     right: 10px;
 }
+.abutton{
+    justify-content:right;
+}
+.container p {
+    color:white;
+}
 .form-content {
     display: flex;
     flex-direction: column;
@@ -75,10 +81,4 @@
     .search-container input[type="submit"] {
         width: 100%;
     }
-}
-.abutton{
-    justify-content:right;
-}
-.container p{
-    color:white;
 }
