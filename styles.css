@@ -76,3 +76,9 @@
         width: 100%;
     }
 }
+.abutton{
+    justify-content:right;
+}
+.container p{
+    color:white;
+}
