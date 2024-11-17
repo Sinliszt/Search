@@ -16,6 +16,7 @@
     width: 100%;
     background-color: #18191b;
     border: solid 1px grey;
+    color: whitesmoke;
  }
  .input-advanced:focus{
     border-color: #78a2f6;
