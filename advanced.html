@@ -10,47 +10,67 @@
    <body style="background-color: #18191b; color:white;">
            <div class="nav-links">
                <a href="index.html">Google Search</a>
-               <a href="image.html">Image Search</a>
            </div>
+           <br><br>
            <div class="container">
-                <h2 color="#e5736d">Advanced Search</h2>
+                <h5 style="color:#e5736d;">Advanced Search</h5>
+                <hr style="color: black; padding-top: 10px; padding-bottom: 10px;">
                 <form action="https://www.google.com/search" method="GET">
-                <h3>Find pages with...</h3>
-                <hr>
                 <div class="row mb-3">
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-8 col-sm-9">
+                        <h6>Find pages with...</h6>
+                        <br>
+                    </div>
+                    <div class="col-lg-4 col-sm-3">
+                        <h6>To do this in the search box:</h6>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-lg-2 col-sm-3">
                         <p>all these words:</p>
                     </div>
-                    <div class="col-lg-5 col-sm-6">
-                        <input type="text" name="as_q" class="form-control">
+                    <div class="col-lg-6 col-sm-6">
+                        <input type="text" name="as_q" class="input-advanced">
+                    </div>
+                    <div class="col-lg-4 col-sm-3">
+                        <p>Type the important words:<span class ="imp">tri-colour rat terrier</span></p>
                     </div>
                 </div>
                 <div class="row mb-3">
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-2 col-sm-3">
                         <p>this exact word or phrase:</p>
                     </div>
-                    <div class="col-lg-5 col-sm-6">
-                        <input type="text" name="as_epq" class="form-control">
+                    <div class="col-lg-6 col-sm-6">
+                        <input type="text" name="as_epq" class="input-advanced">
+                    </div>
+                    <div class="col-lg-4 col-sm-3">
+                        <p>Put exact words in quotes: <span class="imp"> "rat terrier"</span></p>
                     </div>
                 </div>
                 <div class="row mb-3">
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-2 col-sm-3">
                         <p>any of these words:</p>
                     </div>
-                    <div class="col-lg-5 col-sm-6">
-                        <input type="text" id="any-words" name="as-oq" class="form-control">
+                    <div class="col-lg-6 col-sm-6">
+                        <input type="text" name="as-oq" class="input-advanced">
+                    </div>
+                    <div class="col-lg-4 col-sm-3">
+                        <p>Type <span class="imp">OR</span> between all the words you want:<span class="imp">miniature OR standard</p>
                     </div>
                 </div>
                 <div class="row mb-3">
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-2 col-sm-3">
                         <p>none of these words:</p>
                     </div>
-                    <div class="col-lg-5 col-sm-6">
-                        <input type="text" name="as-eq" class="form-control">
+                    <div class="col-lg-6 col-sm-6">
+                        <input type="text" name="as-eq" class="input-advanced">
+                    </div>
+                    <div class="col-lg-4 col-sm-3">
+                        <p>Put a minus sign just before words that you don't want: <span class="imp">-rodent, -"Jack Russell"</span></p>
                     </div>
                 </div>
-                <div class="col-lg-9 col-sm-12 text-end">
-                    <input class="btn btn-primary" type="submit">
+                <div class="col-lg-8 col-sm-12 text-end">
+                    <input type="submit" style="background-color: #78a2f6; color:black; font-weight: 500;" value="Advanced Search">
                 </div>
                 </div>           
                 </body>
