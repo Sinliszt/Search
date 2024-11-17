@@ -45,7 +45,7 @@
  #mainsearch:hover{
     background-color: #4d5055;
  }
- input[type="submit"] {
+ search-container input[type="submit"] {
     padding: 5px 10px;
     margin-top: 10px;
     border-radius: 2px;
@@ -53,6 +53,9 @@
     width: 10vw;
     border-radius: 4px;
     background-color: whitesmoke;
+    box-shadow: none;
+    outline: none;
+    border-style: solid
  }
  .button-container{
     display: flex;
